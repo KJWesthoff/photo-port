@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery is rendering matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      data-testid="h1tag"
+    >
+      Portraits
+    </h1>
+    <p>
+      Portraits of people
+    </p>
+    <div>
+      <div
+        class="flex-row"
+      >
+        <img
+          alt="Cat green eyes../../assets/small/portraits/0.jpg"
+          class="img-thumbnail mx-1"
+        />
+        <img
+          alt="Green parrot../../assets/small/portraits/1.jpg"
+          class="img-thumbnail mx-1"
+        />
+        <img
+          alt="Yellow macaw../../assets/small/portraits/2.jpg"
+          class="img-thumbnail mx-1"
+        />
+        <img
+          alt="Pug smile../../assets/small/portraits/3.jpg"
+          class="img-thumbnail mx-1"
+        />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

@@ -112,7 +112,7 @@ function PhotoList({category}) {
             <div className="flex-row">
                 {currentPhotos.map((image,i)=>(
                     <img
-                        src = {require(`../../assets/small/${category}/${i}.jpg`)} 
+                        src = {require(`../../assets/small/${category}/${i}.jpg`).default} 
                         alt = {image.name +`../../assets/small/${category}/${i}.jpg`}
                         className = "img-thumbnail mx-1"
                         
